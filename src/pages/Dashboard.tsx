@@ -30,7 +30,7 @@ const Dashboard: React.FC = () => {
       <h1 className="text-3xl font-bold">Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <StatCard
-          title="Total de Activos"
+          title="Total General de Activos"
           value={stats?.totalActivos}
           icon={<PieChart className="h-8 w-8 text-blue-500" />}
         />
