@@ -9,7 +9,7 @@ const Dashboard: React.FC = () => {
       // Simular una llamada a la API
       await new Promise(resolve => setTimeout(resolve, 1000));
       return {
-        totalActivos: 150,
+        totalActivos: 151,
         activosAsignados: 120,
         mantenimientosPendientes: 5,
         distribucionTipos: {
